@@ -1,0 +1,73 @@
+/* GENERAL STYLING */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    text-align:center;
+    background: url('images/download.jpeg') no-repeat center center/cover;
+    backdrop-filter:blur(6px);
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    height:80vh;
+    width:70vw;
+    border:2px solid white;
+    border-radius:5px;
+    box-shadow: -10px 10px 10px rgb(39, 46, 51);
+}
+.heading{
+    background-color: rgb(59, 53, 53);
+    border:2px solid white;
+    width:50%;
+    margin:20px auto;
+    color:rgb(0, 0, 0);
+    padding:10px;
+    border-radius: 5px;
+}
+.text-area{
+    line-height:40px;
+    font-size: 1.7rem;
+    color:white;
+    margin:auto auto;
+    width:80%;
+    margin-top:5rem;
+    display: flex;
+    justify-content: center;
+}
+.text-area .quote{
+    margin:20px 0;
+    color:rgb(255, 255, 255);
+}
+.person{
+    color:white;
+    margin:100px auto;
+    font-size: 3rem;
+}
+.button-area{
+    
+    margin-top:65px;
+    margin: 35px auto;
+}
+.button-area button{
+    padding:15px 55px;
+    background:none;
+    color:white;
+    font-size: larger;
+    border:2px solid white;
+    border-radius: 5px;
+    position:fixed;
+}
+button:hover{
+    transform: translateX(30px);
+
+    background-color:rgb(200, 209, 65);
+    transition:all ease-in-out 0.4s;
+    color:black;
+    box-shadow: -7px 7px 10px rgb(39, 46, 51);
+}
